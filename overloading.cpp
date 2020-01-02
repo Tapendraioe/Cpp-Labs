@@ -23,7 +23,7 @@ int main(){
     cin>>feet;
     cout<<"Enter the inches:\n";
     cin>>inches;
-    cout<<"No para:"<<noarg()<<"\n";
+    cout<<"No arg:"<<noarg()<<"\n";
     cout<<"one arg:"<<oarg(feet)<<"\n";
     cout<<"two arg:"<<twoarg(feet,inches);
 }
