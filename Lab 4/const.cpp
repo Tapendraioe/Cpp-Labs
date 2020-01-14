@@ -5,11 +5,12 @@ class chiz{
     int data;
     public:
     chiz( int a=0){data=a;}
-    int getdata(){return data;}
+    //int getdata(){return data;};NonConst Function
+    int getdata() const {return data;}
     };
     int main(){
 
-      chiz t(5);
+      chiz t(100);
       cout<<t.getdata(); 
         return 0;
     }
