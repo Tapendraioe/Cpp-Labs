@@ -6,11 +6,12 @@ class chiz{
     public:
     chiz( int a=0){data=a;}
     //int getdata(){return data;};NonConst Function
-    int getdata() const {return data;}
+    int getdata(){return data;}
     };
     int main(){
 
-       const chiz t;
+       chiz t(10); 
+       //const chiz t; non const functions can't be called by const objects
       cout<<t.getdata(); 
         return 0;
     }
