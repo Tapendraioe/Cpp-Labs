@@ -10,7 +10,7 @@ class chiz{
     };
     int main(){
 
-      chiz t(100);
+       const chiz t;
       cout<<t.getdata(); 
         return 0;
     }
