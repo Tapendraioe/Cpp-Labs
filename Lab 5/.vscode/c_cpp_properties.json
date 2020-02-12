@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "D:\\wxWidgets\\wxWidgets-3.1.3_2",
+                "D:\\wxWidgets\\wxWidgets-3.1.3_2\\lib\\gcc_lib",
+                "D:\\wxWidgets\\wxWidgets-3.1.3_2",
+                "D:\\wxWidgets\\wxWidgets-3.1.3_2\\include\\wx",
+                "D:/wxWidgets/wxWidgets-3.1.3_2/samples/xrc",
+                "D:/wxWidgets/wxWidgets-3.1.3_2/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x86"
+        }
+    ],
+    "version": 4
+}
